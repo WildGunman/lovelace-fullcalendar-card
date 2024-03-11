@@ -544,7 +544,7 @@ class FullCalendarCard extends LitElement {
     		eventTimeFormat: {
     			hour: 'numeric',
     			minute: '2-digit',
-    			hour12: false
+    			hour12: true
   			},
   			eventSources: this.getEventSources(),
   			windowResize: () => {
